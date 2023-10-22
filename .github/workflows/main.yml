@@ -25,7 +25,7 @@ jobs:
           push: true
           tags: |
             fabricioveronez/video-web-color:${{github.run_number}}
-            fabricioveronez/video-web-color:blue
+            fabricioveronez/video-web-color:latest
 
 
 
