@@ -17,7 +17,7 @@ jobs:
         with:
           username: ${{ secrets.DOCKERHUB_USER }}
           password: ${{ secrets.DOCKERHUB_PWD }}
-      - name: Construção da imagem Docker do blue page
+      - name: Construção da imagem Docker da Web Color Page
         uses: docker/build-push-action@v3.2.0
         with: 
           context: ./src
