@@ -24,8 +24,8 @@ jobs:
           file: ./src/Dockerfile
           push: true
           tags: |
-            fabricioveronez/video-web-color:${{github.run_number}}
-            fabricioveronez/video-web-color:latest
+            fabricioveronez/live-web-color:${{github.run_number}}
+            fabricioveronez/live-web-color:latest
 
 
 
