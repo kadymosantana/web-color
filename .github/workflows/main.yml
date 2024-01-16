@@ -19,6 +19,7 @@ jobs:
       uses: docker/build-push-action@v5
       with:
         push: true
+        context: ./src
         file: ./src/Dockerfile
         tags: |
           kadymo/web-color:${{ github.run_number }}
