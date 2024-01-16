@@ -18,9 +18,9 @@ jobs:
     - name: Build and push Docker image
       uses: docker/build-push-action@v5
       with:
-        push: true
         context: ./src
         file: ./src/Dockerfile
+        push: true
         tags: |
           kadymo/web-color:${{ github.run_number }}
           kadymo/web-color:latest
